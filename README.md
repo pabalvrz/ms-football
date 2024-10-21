@@ -1,6 +1,6 @@
 # 🏟️ MS Football
 
-Este es el microservicio principal del sistema **MS Football**, diseñado para gestionar toda la información relacionada con el fútbol. Este sistema se compone de varios microservicios que se comunican entre sí para proporcionar una experiencia completa de gestión de datos.
+Sistema **MS Football**, diseñado para gestionar toda la información relacionada con el fútbol. Este sistema se compone de varios microservicios que se comunican entre sí para proporcionar una experiencia completa de gestión de datos.
 
 ## 🚀 Microservicios
 
