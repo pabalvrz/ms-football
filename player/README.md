@@ -48,8 +48,6 @@ Una vez que la aplicación esté corriendo, puedes acceder a la API en http://lo
 
 ## 📚 Endpoints Principales
 
-## 📚 Endpoints Principales
-
 | Método | Endpoint                     | Descripción                                        |
 |--------|------------------------------|----------------------------------------------------|
 | POST   | `/players`                   | Crea un nuevo jugador                               |
