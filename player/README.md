@@ -31,3 +31,27 @@ La aplicación utiliza una base de datos **H2** en memoria por defecto. Puedes a
 - **JDBC URL**: `jdbc:h2:file:D:/Proyectos/Learn/BD/ms-football;SCHEMA=PLAYERS;AUTO_SERVER=TRUE`
 - **Usuario**: `sa`
 - **Contraseña**: `password`
+
+### 3. Ejecución de la Aplicación
+
+#### Usando Maven
+
+Si prefieres ejecutar la aplicación desde Maven:
+
+```bash
+mvn spring-boot:run
+```
+
+### 4. Acceso a la API
+
+Una vez que la aplicación esté corriendo, puedes acceder a la API en http://localhost:8090/swagger-ui.html.
+
+## 📚 Endpoints Principales
+
+| Método | Endpoint                | Descripción                                 |
+|--------|-------------------------|---------------------------------------------|
+| GET    | `/api/v1/players`        | Obtiene la lista de todos los jugadores     |
+| GET    | `/api/v1/players/{id}`   | Obtiene la información de un jugador por ID |
+| POST   | `/api/v1/players`        | Crea un nuevo jugador                       |
+| PUT    | `/api/v1/players/{id}`   | Actualiza la información de un jugador      |
+| DELETE | `/api/v1/players/{id}`   | Elimina un jugador por su ID                |
