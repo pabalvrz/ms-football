@@ -50,9 +50,9 @@ Una vez que la aplicación esté corriendo, puedes acceder a la API en http://lo
 
 | Método | Endpoint                     | Descripción                                        |
 |--------|------------------------------|----------------------------------------------------|
-| POST   | `/players`                   | Crea un nuevo jugador                               |
-| GET    | `/players`                   | Recupera la información de todos los jugadores     |
-| GET    | `/players/{id}`              | Recupera la información de un jugador específico    |
-| PATCH  | `/players/{id}`              | Actualiza la información de un jugador              |
-| DELETE | `/players/{id}`              | Elimina un jugador por su ID                       |
-| PATCH  | `/players/{id}/statistic`    | Actualiza las estadísticas de un jugador            |
+| POST   | `/api/players`                   | Crea un nuevo jugador                               |
+| GET    | `/api/players`                   | Recupera la información de todos los jugadores     |
+| GET    | `/api/players/{id}`              | Recupera la información de un jugador específico    |
+| PATCH  | `/api/players/{id}`              | Actualiza la información de un jugador              |
+| DELETE | `/api/players/{id}`              | Elimina un jugador por su ID                       |
+| PATCH  | `/api/players/{id}/statistic`    | Actualiza las estadísticas de un jugador            |
