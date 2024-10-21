@@ -8,11 +8,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Player extends Person{
+public class Player extends Person {
 
     @Enumerated(EnumType.STRING)
     private Position position;
@@ -29,4 +31,16 @@ public class Player extends Person{
     @JoinColumn(name = "estadistica_id")
     private Statistic statistic;
 
+
+    public Player(Long id, String nombre, String lastName, Date bornDate, Integer age,
+                  Double height, Double weight,
+                  Position position, SpecificPosition specificPosition, Foot foot, Integer numeroCamiseta,
+                  Statistic statistic) {
+        super(id,nombre,lastName,bornDate,age,height,weight);
+        this.position = position;
+        this.specificPosition = specificPosition;
+        this.foot = foot;
+        this.numeroCamiseta = numeroCamiseta;
+        this.statistic = statistic;
+    }
 }

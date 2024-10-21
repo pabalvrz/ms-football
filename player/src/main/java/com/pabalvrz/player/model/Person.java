@@ -2,12 +2,16 @@ package com.pabalvrz.player.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
 @MappedSuperclass
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Person{
 
     @Id
