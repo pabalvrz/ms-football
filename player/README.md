@@ -24,7 +24,7 @@ cd ms-football/player
 ```
 
 ### 2. Configuración de la Base de Datos
-La aplicación utiliza una base de datos **H2** en memoria por defecto. Puedes acceder a la consola de la base de datos H2 en: http://localhost:8080/h2-console
+La aplicación utiliza una base de datos **H2** en memoria por defecto. Puedes acceder a la consola de la base de datos H2 en: http://localhost:8090/h2-console
 
 ### Credenciales de la Base de Datos:
 
