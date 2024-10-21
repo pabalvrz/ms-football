@@ -28,6 +28,6 @@ La aplicación utiliza una base de datos **H2** en memoria por defecto. Puedes a
 
 ### Credenciales de la Base de Datos:
 
-- **JDBC URL**: `jdbc:h2:mem:testdb`
+- **JDBC URL**: `jdbc:h2:file:D:/Proyectos/Learn/BD/ms-football;SCHEMA=PLAYERS;AUTO_SERVER=TRUE`
 - **Usuario**: `sa`
 - **Contraseña**: `password`
