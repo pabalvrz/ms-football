@@ -7,7 +7,7 @@ Este es el microservicio principal del sistema **MS Football**, diseñado para g
 ### 1. Player Service
 
 - **Descripción:** Este microservicio se encarga de la gestión de jugadores, incluyendo operaciones CRUD y estadísticas de los mismos.
-- **Repositorio:** [ms-football/player](https://github.com/pabalvrz/ms-football/tree/player)
+- **Repositorio:** [ms-football/player](https://github.com/pabalvrz/ms-football/tree/develop/player)
 
 ### 3. Arquitectura del Sistema
 
