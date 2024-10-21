@@ -1,6 +1,6 @@
-# ⚽ Player Service - MS Football
+# ⚽ Team Service - MS Football
 
-Este microservicio es parte del sistema de **MS Football**, que está diseñado para gestionar datos relacionados con el fútbol. El **Player Service** se encarga de la gestión de jugadores, incluyendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y otras funcionalidades relacionadas con la información de jugadores.
+Este microservicio es parte del sistema de **MS Football**, que está diseñado para gestionar datos relacionados con el fútbol. El **Team Service** se encarga de la gestión de equipos, incluyendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y otras funcionalidades relacionadas con la información de equipos.
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -20,7 +20,7 @@ Este microservicio es parte del sistema de **MS Football**, que está diseñado 
 
 ```bash
 git clone https://github.com/pabalvrz/ms-football.git
-cd ms-football/player
+cd ms-football/team
 ```
 
 ### 2. Configuración de la Base de Datos
@@ -28,7 +28,7 @@ La aplicación utiliza una base de datos **H2** en memoria por defecto. Puedes a
 
 ### Credenciales de la Base de Datos:
 
-- **JDBC URL**: `jdbc:h2:file:D:/Proyectos/Learn/BD/ms-football;SCHEMA=PLAYERS;AUTO_SERVER=TRUE`
+- **JDBC URL**: `jdbc:h2:file:D:/Proyectos/Learn/BD/ms-football;SCHEMA=TEAMS;AUTO_SERVER=TRUE`
 - **Usuario**: `sa`
 - **Contraseña**: `password`
 
@@ -44,15 +44,7 @@ mvn spring-boot:run
 
 ### 4. Acceso a la API
 
-Una vez que la aplicación esté corriendo, puedes acceder a la API en http://localhost:8090/swagger-ui.html.
+Una vez que la aplicación esté corriendo, puedes acceder a la API en http://localhost:8091/swagger-ui.html.
 
 ## 📚 Endpoints Principales
 
-| Método | Endpoint                     | Descripción                                        |
-|--------|------------------------------|----------------------------------------------------|
-| POST   | `/api/players`                   | Crea un nuevo jugador                               |
-| GET    | `/api/players`                   | Recupera la información de todos los jugadores     |
-| GET    | `/api/players/{id}`              | Recupera la información de un jugador específico    |
-| PATCH  | `/api/players/{id}`              | Actualiza la información de un jugador              |
-| DELETE | `/api/players/{id}`              | Elimina un jugador por su ID                       |
-| PATCH  | `/api/players/{id}/statistic`    | Actualiza las estadísticas de un jugador            |
