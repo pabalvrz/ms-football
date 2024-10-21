@@ -20,4 +20,13 @@ Este microservicio es parte del sistema de **MS Football**, que está diseñado 
 
 ```bash
 git clone https://github.com/pabalvrz/ms-football.git
-cd ms-football/player/player
+cd ms-football/player
+
+### 2. Configuración de la Base de Datos
+La aplicación utiliza una base de datos **H2** en memoria por defecto. Puedes acceder a la consola de la base de datos H2 en: http://localhost:8080/h2-console
+
+### Credenciales de la Base de Datos:
+
+- **JDBC URL**: `jdbc:h2:mem:testdb`
+- **Usuario**: `sa`
+- **Contraseña**: `password`
