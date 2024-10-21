@@ -48,10 +48,13 @@ Una vez que la aplicación esté corriendo, puedes acceder a la API en http://lo
 
 ## 📚 Endpoints Principales
 
-| Método | Endpoint                | Descripción                                 |
-|--------|-------------------------|---------------------------------------------|
-| GET    | `/api/v1/players`        | Obtiene la lista de todos los jugadores     |
-| GET    | `/api/v1/players/{id}`   | Obtiene la información de un jugador por ID |
-| POST   | `/api/v1/players`        | Crea un nuevo jugador                       |
-| PUT    | `/api/v1/players/{id}`   | Actualiza la información de un jugador      |
-| DELETE | `/api/v1/players/{id}`   | Elimina un jugador por su ID                |
+## 📚 Endpoints Principales
+
+| Método | Endpoint                     | Descripción                                        |
+|--------|------------------------------|----------------------------------------------------|
+| POST   | `/players`                   | Crea un nuevo jugador                               |
+| GET    | `/players`                   | Recupera la información de todos los jugadores     |
+| GET    | `/players/{id}`              | Recupera la información de un jugador específico    |
+| PATCH  | `/players/{id}`              | Actualiza la información de un jugador              |
+| DELETE | `/players/{id}`              | Elimina un jugador por su ID                       |
+| PATCH  | `/players/{id}/statistic`    | Actualiza las estadísticas de un jugador            |
