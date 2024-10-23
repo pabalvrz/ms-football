@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pabalvrz</groupId>
-	<artifactId>team</artifactId>
+	<artifactId>team-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>team</name>
 	<description>MS for teams</description>
