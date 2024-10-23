@@ -1,6 +1,6 @@
 spring:
   application:
-    name: player
+    name: team-service
   datasource:
     url: jdbc:postgresql://localhost:5432/ms-football
     username: postgres
@@ -15,3 +15,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
