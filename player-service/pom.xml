@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pabalvrz</groupId>
-	<artifactId>player</artifactId>
+	<artifactId>player-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>player</name>
 	<description>MS for players</description>
@@ -56,6 +56,11 @@
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
 			<version>3.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.pabalvrz</groupId>
+			<artifactId>team</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 	</dependencies>

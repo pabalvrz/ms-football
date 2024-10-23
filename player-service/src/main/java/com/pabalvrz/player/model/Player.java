@@ -3,6 +3,7 @@ package com.pabalvrz.player.model;
 import com.pabalvrz.player.model.enums.Foot;
 import com.pabalvrz.player.model.enums.Position;
 import com.pabalvrz.player.model.enums.SpecificPosition;
+import com.pabalvrz.team.model.Team;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,6 +15,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Table(name = "PLAYER")
 public class Player extends Person {
 
     @Enumerated(EnumType.STRING)
@@ -30,6 +32,8 @@ public class Player extends Person {
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "estadistica_id")
     private Statistic statistic;
+
+    private Long teamId;
 
 
     public Player(Long id, String nombre, String lastName, Date bornDate, Integer age,
