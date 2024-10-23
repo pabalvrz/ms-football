@@ -3,7 +3,6 @@ package com.pabalvrz.player.model;
 import com.pabalvrz.player.model.enums.Foot;
 import com.pabalvrz.player.model.enums.Position;
 import com.pabalvrz.player.model.enums.SpecificPosition;
-import com.pabalvrz.team.model.Team;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
